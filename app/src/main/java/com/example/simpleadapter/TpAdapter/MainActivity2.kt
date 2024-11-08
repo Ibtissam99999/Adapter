@@ -1,11 +1,12 @@
-package com.example.simpleadapter
+package com.example.simpleadapter.TpAdapter
 
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.simpleadapter.R
 
-    class MainActivity2 : AppCompatActivity() {
+class MainActivity2 : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_main)

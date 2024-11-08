@@ -1,9 +1,10 @@
-package com.example.simpleadapter
+package com.example.simpleadapter.SimpleAdapter
 
 import android.os.Bundle
 import android.widget.ListView
 import android.widget.SimpleAdapter
 import androidx.appcompat.app.AppCompatActivity
+import com.example.simpleadapter.R
 
 class MainActivity : AppCompatActivity() {
 
