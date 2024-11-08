@@ -13,8 +13,8 @@ class LanguageAdapter(private val languagesMap: Map<String, Triple<String, Int, 
 
     class LanguageViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val icon: ImageView = view.findViewById(R.id.icon)
-        val name: TextView = view.findViewById(R.id.language_name)
-        val year: TextView = view.findViewById(R.id.language_year)
+        val name: TextView = view.findViewById(R.id.NomLangage)
+        val year: TextView = view.findViewById(R.id.AnneeLangage)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LanguageViewHolder {
